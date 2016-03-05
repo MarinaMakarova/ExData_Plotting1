@@ -23,7 +23,7 @@ power$Sub_metering_1 <- as.numeric(as.character(power$Sub_metering_1))
 power$Sub_metering_2 <- as.numeric(as.character(power$Sub_metering_2))
 
 ## make sure your graphics device settings are correct
-par(mfrow = c(1,1), mar = c(2, 4, 2, 0.5))
+par(mfrow = c(1,1), mar = c(2, 4, 2, 0.5), bg = "gray94")
 
 ## drow a plot. First, create a blank plot withput any dots or line, then add a
 ## line connecting all the values

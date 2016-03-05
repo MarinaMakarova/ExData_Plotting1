@@ -24,7 +24,7 @@ power$Sub_metering_2 <- as.numeric(as.character(power$Sub_metering_2))
 
 ## make sure your graphics device settings are correct. Set the way you want 
 ##your graphics to appear on the screen and margins
-par(mfrow=c(2,2), mar=c(2,4,0.5,0.5), oma=c(1.5,1,1,1))
+par(mfrow=c(2,2), mar=c(2,4,0.5,0.5), oma=c(1.5,1,1,1), bg = "gray94")
 
 ## Draw plots one by one, starting with topleft and going clockwise
 
